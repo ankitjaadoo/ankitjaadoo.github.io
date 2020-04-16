@@ -1,0 +1,41 @@
+title: Jaadoo Blogs
+email: ankit@cnbtek.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/jaadoo-blogs" # the subpath of your site, e.g. /blog
+url: "http://jaadoo.blogs.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Ankit Kumar # add your name
+author-pic: adam-face.jpg
+about-author: My name is Ankit Kumar. I’m a full-time Software Developer and this is my alter-ego enlightening the world.
+# Contact links
+email: ankit@cnbtek.com # Add your Email address
+phone: +91-8906803353 # Add your Phone number
+linkedin: ankitjaadoo # Add your Linkedin handle
+github: ankitjaadoo # Add your Github handle
+twitter: '@Ankit_Jaadoo' # Add your Twitter handle
+facebook: AnkitJaadoo # Add your Facebook handle
+instagram: ankit_jaadoo  # Add your Instagram handle
+
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
